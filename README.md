@@ -1,5 +1,6 @@
 # API-usuário
 #### Um aplicativo interativo criado com React e Sass que utiliza a API Random User Generator para exibir, filtrar e carregar usuários aleatórios. Ideal para explorar dados de usuários de forma dinâmica e estilizada.
+#### https://random-generator-users.netlify.app/
 
 ## Funcionalidades
 <ul>

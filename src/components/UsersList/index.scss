@@ -1,0 +1,27 @@
+.users-list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  align-items: center; /* Centraliza verticalmente */
+  justify-items: center;
+
+  .user-item {
+    margin-top: 20px;
+  }
+
+  .user-item p span{
+    font-weight: 500;
+  }
+
+  .user-item img {
+    border-radius: 50%;
+    width: 100px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .users-list {
+    grid-template-columns: repeat(2, auto);
+  }
+}
